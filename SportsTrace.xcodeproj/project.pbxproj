@@ -3,19 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47285F41755EB273F91DD2BE /* Pods_SportsTrace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E404F8CCF1F5D789A993ACF /* Pods_SportsTrace.framework */; };
+		92096E0E252317F500A983F6 /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92096E0D252317F500A983F6 /* SessionCell.swift */; };
+		92096E1025232F5B00A983F6 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 92096E0F25232F5B00A983F6 /* RightArrow.png */; };
+		921861DD25249DC10028EDC7 /* analys.png in Resources */ = {isa = PBXBuildFile; fileRef = 921861DA25249DC00028EDC7 /* analys.png */; };
+		921861DE25249DC10028EDC7 /* recom.png in Resources */ = {isa = PBXBuildFile; fileRef = 921861DB25249DC00028EDC7 /* recom.png */; };
+		921861DF25249DC10028EDC7 /* ses.png in Resources */ = {isa = PBXBuildFile; fileRef = 921861DC25249DC00028EDC7 /* ses.png */; };
+		92229D752522FF6D00AB7602 /* SessionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92229D742522FF6D00AB7602 /* SessionListVC.swift */; };
+		92229D782523030600AB7602 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92229D772523030600AB7602 /* CustomView.swift */; };
+		92229D7A2523057800AB7602 /* RoundImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92229D792523057800AB7602 /* RoundImgView.swift */; };
+		92229D7E252307CC00AB7602 /* bolt.png in Resources */ = {isa = PBXBuildFile; fileRef = 92229D7D252307CC00AB7602 /* bolt.png */; };
+		92229D822523133C00AB7602 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92229D812523133C00AB7602 /* DesignableButton.swift */; };
 		9241F093252192B1000255C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9241F092252192B1000255C5 /* AppDelegate.swift */; };
 		9241F095252192B1000255C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9241F094252192B1000255C5 /* SceneDelegate.swift */; };
 		9241F097252192B1000255C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9241F096252192B1000255C5 /* ViewController.swift */; };
 		9241F09A252192B1000255C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9241F098252192B1000255C5 /* Main.storyboard */; };
 		9241F09C252192B3000255C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9241F09B252192B3000255C5 /* Assets.xcassets */; };
 		9241F09F252192B3000255C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9241F09D252192B3000255C5 /* LaunchScreen.storyboard */; };
+		92E1369A25283C4F00FE1A30 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1369925283C4F00FE1A30 /* Common.swift */; };
+		92E1369C25283C8F00FE1A30 /* RecordingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1369B25283C8F00FE1A30 /* RecordingVC.swift */; };
+		92E136A025283D2500FE1A30 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1369E25283D2500FE1A30 /* CustomCell.swift */; };
+		92E136A125283D2500FE1A30 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E1369F25283D2500FE1A30 /* CustomCell.xib */; };
+		92E136A325283D4E00FE1A30 /* iOS_Recording.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 92E136A225283D4E00FE1A30 /* iOS_Recording.xcdatamodel */; };
+		92E8D9192521AB2C004E2D34 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D9142521AB2B004E2D34 /* PreferencesViewController.swift */; };
+		92E8D91A2521AB2C004E2D34 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D9152521AB2C004E2D34 /* MenuViewController.swift */; };
+		92E8D91B2521AB2C004E2D34 /* OtherExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D9162521AB2C004E2D34 /* OtherExampleViewController.swift */; };
+		92E8D91C2521AB2C004E2D34 /* WorkWithOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D9172521AB2C004E2D34 /* WorkWithOtherViewController.swift */; };
+		92E8D91D2521AB2C004E2D34 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D9182521AB2C004E2D34 /* UINavigationController+Extension.swift */; };
+		92E8D9252521BE49004E2D34 /* SideMenuSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 92E8D9242521BE49004E2D34 /* SideMenuSwift.podspec */; };
+		92E8D9272521DCE0004E2D34 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D9262521DCE0004E2D34 /* RecordVideoViewController.swift */; };
+		92E8D92A2521DF0B004E2D34 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D9292521DF0B004E2D34 /* VideoHelper.swift */; };
+		92E8D92D2521DF7A004E2D34 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D92B2521DF7A004E2D34 /* PlayVideoViewController.swift */; };
+		92E8D92E2521DF7A004E2D34 /* MergeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8D92C2521DF7A004E2D34 /* MergeVideoViewController.swift */; };
+		92E8D9302521E81B004E2D34 /* Heading.png in Resources */ = {isa = PBXBuildFile; fileRef = 92E8D92F2521E81B004E2D34 /* Heading.png */; };
+		92E8D9342521F192004E2D34 /* Record.png in Resources */ = {isa = PBXBuildFile; fileRef = 92E8D9322521F192004E2D34 /* Record.png */; };
+		92E8D9352521F192004E2D34 /* LiveRecord.png in Resources */ = {isa = PBXBuildFile; fileRef = 92E8D9332521F192004E2D34 /* LiveRecord.png */; };
+		92FF20002524627400786611 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FF1FFF2524627300786611 /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E404F8CCF1F5D789A993ACF /* Pods_SportsTrace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsTrace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92096E0D252317F500A983F6 /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
+		92096E0F25232F5B00A983F6 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightArrow.png; sourceTree = "<group>"; };
+		921861DA25249DC00028EDC7 /* analys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analys.png; sourceTree = "<group>"; };
+		921861DB25249DC00028EDC7 /* recom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recom.png; sourceTree = "<group>"; };
+		921861DC25249DC00028EDC7 /* ses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ses.png; sourceTree = "<group>"; };
+		92229D742522FF6D00AB7602 /* SessionListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListVC.swift; sourceTree = "<group>"; };
+		92229D772523030600AB7602 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		92229D792523057800AB7602 /* RoundImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImgView.swift; sourceTree = "<group>"; };
+		92229D7D252307CC00AB7602 /* bolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolt.png; sourceTree = "<group>"; };
+		92229D812523133C00AB7602 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		9241F08F252192B1000255C5 /* SportsTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9241F092252192B1000255C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9241F094252192B1000255C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +65,27 @@
 		9241F09B252192B3000255C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9241F09E252192B3000255C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9241F0A0252192B3000255C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E1369925283C4F00FE1A30 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		92E1369B25283C8F00FE1A30 /* RecordingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingVC.swift; sourceTree = "<group>"; };
+		92E1369E25283D2500FE1A30 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		92E1369F25283D2500FE1A30 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		92E136A225283D4E00FE1A30 /* iOS_Recording.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Recording.xcdatamodel; sourceTree = "<group>"; };
+		92E8D9142521AB2B004E2D34 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesViewController.swift; path = SideMenu/PreferencesViewController.swift; sourceTree = "<group>"; };
+		92E8D9152521AB2C004E2D34 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		92E8D9162521AB2C004E2D34 /* OtherExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherExampleViewController.swift; sourceTree = "<group>"; };
+		92E8D9172521AB2C004E2D34 /* WorkWithOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkWithOtherViewController.swift; sourceTree = "<group>"; };
+		92E8D9182521AB2C004E2D34 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		92E8D9242521BE49004E2D34 /* SideMenuSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = SideMenuSwift.podspec; path = SportsTrace/SideMenu/SideMenuSwift.podspec; sourceTree = SOURCE_ROOT; };
+		92E8D9262521DCE0004E2D34 /* RecordVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
+		92E8D9292521DF0B004E2D34 /* VideoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		92E8D92B2521DF7A004E2D34 /* PlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		92E8D92C2521DF7A004E2D34 /* MergeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeVideoViewController.swift; sourceTree = "<group>"; };
+		92E8D92F2521E81B004E2D34 /* Heading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heading.png; sourceTree = "<group>"; };
+		92E8D9322521F192004E2D34 /* Record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Record.png; sourceTree = "<group>"; };
+		92E8D9332521F192004E2D34 /* LiveRecord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LiveRecord.png; sourceTree = "<group>"; };
+		92FF1FFF2524627300786611 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		D4E7E67A7313B35032DF3741 /* Pods-SportsTrace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsTrace.release.xcconfig"; path = "Target Support Files/Pods-SportsTrace/Pods-SportsTrace.release.xcconfig"; sourceTree = "<group>"; };
+		E56DE0EF28DB3EA3BA5B3144 /* Pods-SportsTrace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsTrace.debug.xcconfig"; path = "Target Support Files/Pods-SportsTrace/Pods-SportsTrace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +93,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47285F41755EB273F91DD2BE /* Pods_SportsTrace.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		603612025D37628783B129D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E404F8CCF1F5D789A993ACF /* Pods_SportsTrace.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92229D732522FF1000AB7602 /* SessionListVC */ = {
+			isa = PBXGroup;
+			children = (
+				92229D742522FF6D00AB7602 /* SessionListVC.swift */,
+				92096E0D252317F500A983F6 /* SessionCell.swift */,
+			);
+			path = SessionListVC;
+			sourceTree = "<group>";
+		};
+		92229D76252302F700AB7602 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				92229D772523030600AB7602 /* CustomView.swift */,
+				92229D792523057800AB7602 /* RoundImgView.swift */,
+				92229D812523133C00AB7602 /* DesignableButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		9241F086252192B1000255C5 = {
 			isa = PBXGroup;
 			children = (
 				9241F091252192B1000255C5 /* SportsTrace */,
 				9241F090252192B1000255C5 /* Products */,
+				D6FAFE039922E32620FC41B3 /* Pods */,
+				603612025D37628783B129D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +148,82 @@
 		9241F091252192B1000255C5 /* SportsTrace */ = {
 			isa = PBXGroup;
 			children = (
+				92E1369925283C4F00FE1A30 /* Common.swift */,
+				92229D76252302F700AB7602 /* CustomView */,
+				92E8D9312521F180004E2D34 /* images */,
+				92E8D9132521AB03004E2D34 /* SideMenu */,
 				9241F092252192B1000255C5 /* AppDelegate.swift */,
 				9241F094252192B1000255C5 /* SceneDelegate.swift */,
 				9241F096252192B1000255C5 /* ViewController.swift */,
+				92E8D9142521AB2B004E2D34 /* PreferencesViewController.swift */,
+				92E8D9282521DCFE004E2D34 /* Record */,
+				92229D732522FF1000AB7602 /* SessionListVC */,
 				9241F098252192B1000255C5 /* Main.storyboard */,
 				9241F09B252192B3000255C5 /* Assets.xcassets */,
 				9241F09D252192B3000255C5 /* LaunchScreen.storyboard */,
 				9241F0A0252192B3000255C5 /* Info.plist */,
 			);
 			path = SportsTrace;
+			sourceTree = "<group>";
+		};
+		92E1369D25283CC500FE1A30 /* CustomRecord */ = {
+			isa = PBXGroup;
+			children = (
+				92E1369B25283C8F00FE1A30 /* RecordingVC.swift */,
+				92E1369E25283D2500FE1A30 /* CustomCell.swift */,
+				92E136A225283D4E00FE1A30 /* iOS_Recording.xcdatamodel */,
+				92E1369F25283D2500FE1A30 /* CustomCell.xib */,
+			);
+			path = CustomRecord;
+			sourceTree = "<group>";
+		};
+		92E8D9132521AB03004E2D34 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				92E8D9242521BE49004E2D34 /* SideMenuSwift.podspec */,
+				92E8D9152521AB2C004E2D34 /* MenuViewController.swift */,
+				92E8D9162521AB2C004E2D34 /* OtherExampleViewController.swift */,
+				92E8D9182521AB2C004E2D34 /* UINavigationController+Extension.swift */,
+				92E8D9172521AB2C004E2D34 /* WorkWithOtherViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		92E8D9282521DCFE004E2D34 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				92E1369D25283CC500FE1A30 /* CustomRecord */,
+				92E8D9262521DCE0004E2D34 /* RecordVideoViewController.swift */,
+				92E8D92C2521DF7A004E2D34 /* MergeVideoViewController.swift */,
+				92E8D92B2521DF7A004E2D34 /* PlayVideoViewController.swift */,
+				92E8D9292521DF0B004E2D34 /* VideoHelper.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		92E8D9312521F180004E2D34 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				92FF1FFF2524627300786611 /* back.png */,
+				92096E0F25232F5B00A983F6 /* RightArrow.png */,
+				92229D7D252307CC00AB7602 /* bolt.png */,
+				921861DA25249DC00028EDC7 /* analys.png */,
+				921861DB25249DC00028EDC7 /* recom.png */,
+				921861DC25249DC00028EDC7 /* ses.png */,
+				92E8D92F2521E81B004E2D34 /* Heading.png */,
+				92E8D9322521F192004E2D34 /* Record.png */,
+				92E8D9332521F192004E2D34 /* LiveRecord.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D6FAFE039922E32620FC41B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E56DE0EF28DB3EA3BA5B3144 /* Pods-SportsTrace.debug.xcconfig */,
+				D4E7E67A7313B35032DF3741 /* Pods-SportsTrace.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9241F0A3252192B3000255C5 /* Build configuration list for PBXNativeTarget "SportsTrace" */;
 			buildPhases = (
+				F93FF1BB759B37C4116DCF0B /* [CP] Check Pods Manifest.lock */,
 				9241F08B252192B1000255C5 /* Sources */,
 				9241F08C252192B1000255C5 /* Frameworks */,
 				9241F08D252192B1000255C5 /* Resources */,
+				530D67FA039DCE493565B581 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +286,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921861DD25249DC10028EDC7 /* analys.png in Resources */,
+				92E8D9252521BE49004E2D34 /* SideMenuSwift.podspec in Resources */,
+				92E136A125283D2500FE1A30 /* CustomCell.xib in Resources */,
 				9241F09F252192B3000255C5 /* LaunchScreen.storyboard in Resources */,
+				92E8D9342521F192004E2D34 /* Record.png in Resources */,
+				92E8D9302521E81B004E2D34 /* Heading.png in Resources */,
+				92229D7E252307CC00AB7602 /* bolt.png in Resources */,
+				92E8D9352521F192004E2D34 /* LiveRecord.png in Resources */,
+				92FF20002524627400786611 /* back.png in Resources */,
 				9241F09C252192B3000255C5 /* Assets.xcassets in Resources */,
 				9241F09A252192B1000255C5 /* Main.storyboard in Resources */,
+				921861DF25249DC10028EDC7 /* ses.png in Resources */,
+				921861DE25249DC10028EDC7 /* recom.png in Resources */,
+				92096E1025232F5B00A983F6 /* RightArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		530D67FA039DCE493565B581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportsTrace/Pods-SportsTrace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportsTrace/Pods-SportsTrace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportsTrace/Pods-SportsTrace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93FF1BB759B37C4116DCF0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportsTrace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9241F08B252192B1000255C5 /* Sources */ = {
@@ -139,8 +353,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				9241F097252192B1000255C5 /* ViewController.swift in Sources */,
+				92E8D92D2521DF7A004E2D34 /* PlayVideoViewController.swift in Sources */,
+				92E136A025283D2500FE1A30 /* CustomCell.swift in Sources */,
+				92E8D9272521DCE0004E2D34 /* RecordVideoViewController.swift in Sources */,
+				92229D782523030600AB7602 /* CustomView.swift in Sources */,
+				92E1369A25283C4F00FE1A30 /* Common.swift in Sources */,
+				92096E0E252317F500A983F6 /* SessionCell.swift in Sources */,
+				92E8D91A2521AB2C004E2D34 /* MenuViewController.swift in Sources */,
+				92E8D92A2521DF0B004E2D34 /* VideoHelper.swift in Sources */,
+				92E8D91B2521AB2C004E2D34 /* OtherExampleViewController.swift in Sources */,
+				92E1369C25283C8F00FE1A30 /* RecordingVC.swift in Sources */,
+				92229D822523133C00AB7602 /* DesignableButton.swift in Sources */,
+				92E136A325283D4E00FE1A30 /* iOS_Recording.xcdatamodel in Sources */,
+				92229D7A2523057800AB7602 /* RoundImgView.swift in Sources */,
+				92229D752522FF6D00AB7602 /* SessionListVC.swift in Sources */,
+				92E8D91D2521AB2C004E2D34 /* UINavigationController+Extension.swift in Sources */,
+				92E8D92E2521DF7A004E2D34 /* MergeVideoViewController.swift in Sources */,
 				9241F093252192B1000255C5 /* AppDelegate.swift in Sources */,
 				9241F095252192B1000255C5 /* SceneDelegate.swift in Sources */,
+				92E8D91C2521AB2C004E2D34 /* WorkWithOtherViewController.swift in Sources */,
+				92E8D9192521AB2C004E2D34 /* PreferencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +514,13 @@
 		};
 		9241F0A4252192B3000255C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56DE0EF28DB3EA3BA5B3144 /* Pods-SportsTrace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25A3KJ2XHL;
+				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				INFOPLIST_FILE = SportsTrace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +528,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MF.SportsTrace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9241F0A5252192B3000255C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E7E67A7313B35032DF3741 /* Pods-SportsTrace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25A3KJ2XHL;
+				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				INFOPLIST_FILE = SportsTrace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +548,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MF.SportsTrace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
